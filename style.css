@@ -1,0 +1,52 @@
+* {
+  background-color: skyblue;
+  margin-left: 10px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+    color:cornflowerblue;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+h2 {
+    color: darkblue;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#firstQuote {
+    color: rgb(52, 109, 133);
+    font-size: 18px;
+    font-weight: bold;
+    border: thick dashed black;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.normal-paragraphs {
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 4px;
+}
+
+.animal-image {
+    border-radius: 10px; 
+    display: block;
+    margin: 10px auto;
+}
+
+/* Styling for the first two images */
+.style-group-1 {
+    border: 5px solid red;
+    box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.5); 
+    transform: rotate(-5deg); 
+}
+
+/* Styling for the last two images */
+.style-group-2 {
+    border: 5px solid blue; 
+    opacity: 0.8; 
+}
